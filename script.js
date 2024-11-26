@@ -19,7 +19,7 @@ counters.forEach((counter) => {
 
     if (current < target) {
       counter.innerText = Math.ceil(current + increment);
-      setTimeout(updateCount, 10); // Adjust speed as needed
+      setTimeout(updateCount, 100); // Adjust speed as needed
     } else {
       counter.innerText = target; // Ensure it lands exactly on the target
     }
