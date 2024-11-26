@@ -645,6 +645,12 @@ nav {
     }
 }
 
+@media (max-width: 768px) { /* Adjust the max-width value as per your needs */
+  .carousel-container {
+      width: 100%; /* Set to full width for smaller screens */
+  }
+}
+
 .contact-section {
   display: flex;
   flex-wrap: wrap;
