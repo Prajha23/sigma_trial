@@ -649,6 +649,13 @@ nav {
   .carousel-container {
       width: 100%; /* Set to full width for smaller screens */
   }
+
+.carousel-container .carousel {
+    display: flex;
+    align-items: center;
+    animation: scroll-horizontal 5s linear infinite;
+}
+    
 }
 
 .contact-section {
